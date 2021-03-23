@@ -21,17 +21,18 @@
       <input  type="email"  id="mail"  name="user_email">
     </div>
     <div>
-    <label for="subject">choose the subject of your message <br></label>
-
+      <label for="phone">Enter your phone number:<br></label>
+      <input type="tel" id="phone" name="phone">
+    </div>
+    <div>
+      <label for="subject">choose the subject of your message <br></label>
       <select name="sujet" id="subject">
         <option value="">Please choose an option </option>
         <option value="information">Information</option>
         <option value="reclamation">Reclamation</option>
         <option value="other">Other</option>
-       </select>
+      </select>
     </div>
-      <label for="phone">Enter your phone number:<br></label>
-      <input type="tel" id="phone" name="phone">
     <div>
       <label  for="message">Message :<br></label>
       <textarea  id="message"  name="user_message"></textarea>
